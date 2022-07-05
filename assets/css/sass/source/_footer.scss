@@ -1,8 +1,18 @@
 
 .footer_list{
     list-style-type: none;
+    width: 250px;
     li{
         padding: 10px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+
+        .fa-solid{
+            float: right;
+            margin-top: 6px;
+        }
     }
 }
 
@@ -11,22 +21,35 @@
     width: 100%;
     background-position: 100%;
     background-size: cover;
-    height: 500px;
+    height: 440px;
     .row{
-        padding-top: 50px;
         display: flex;
+        
+        .footer_details{
+            p{
+                font-weight: 350;
+                font-size: 16px;
+                line-height: 24px;
+                margin: 0;
+                margin-top: 6px;
+            }
+        }
+
         .col{
            color:$white;
            flex: 1;
            h5{
             margin-bottom: 1em;
-           }
-           h5{
             line-height: 1em;
             margin-bottom:5px;
             margin-top:5px;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            margin-top: 30px;
            }
-
+           
            .footer_heading{
                 font-weight: 500;
                 font-size: 18px;
