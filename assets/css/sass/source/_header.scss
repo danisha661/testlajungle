@@ -38,9 +38,16 @@ $size-desktop: 768px;
     // text-align: right;
 }
 
+
 .swiper {
     width: 100%;
-    height: 100%;
+    @media only screen and (max-width: $size-desktop){
+
+      max-height: 360px;
+      height: 360px;
+    }
+    max-height: 648px;
+    height: 648px;
   }
 
   .swiper-slide {
@@ -61,12 +68,26 @@ $size-desktop: 768px;
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+    
+    @media only screen and (max-width: $size-desktop){
+
+      max-height: 360px;
+      height: 360px;
+    }
+    max-height: 648px;
+    height: 648px;
   }
 
   .swiper-slide img {
     display: block;
     width: 100%;
-    height: 100%;
+    @media only screen and (max-width: $size-desktop){
+
+      max-height: 360px;
+      height: 360px;
+    }
+    max-height: 648px;
+    height: 648px;
     object-fit: cover;
   }
 
