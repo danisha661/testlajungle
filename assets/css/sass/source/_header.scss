@@ -2,11 +2,17 @@
 .alert {
   position: relative;
   z-index: 9999;
-  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 9px;
   background-color: $orange;
   color: $white;
   width: fit-content;
   float: right;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .closebtn {
@@ -18,7 +24,6 @@
   line-height: 20px;
   cursor: pointer;
   transition: 0.3s;
-  padding-right: 20px;
   padding-left: 20px;
 }
 
@@ -254,16 +259,13 @@ $size-desktop: 768px;
           border-top: 0.25rem solid $white;
         }
         &:after{
-          content: '';
+          font-family: 'FontAwesome';
+          content: "\f054";
           position: absolute;
-          border-left: 0.5rem solid transparent;
-          // border-top: -0.5rem solid transparent;
-          border-right: 0.5rem solid transparent;
           left: calc(50% - 1.25rem);
           bottom: 0px;
           z-index: 5;
-          border-bottom: 0.5rem solid #fff;
-          transform: rotate(180deg);
+          transform: rotate(90deg);
         }
       }
       .menu{
