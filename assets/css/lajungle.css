@@ -3,7 +3,9 @@
 ========================================================================== */
 @font-face {
   font-family: "MetaPro-Normal";
-  src: url("./fonts/MetaPro/MetaPro-Normal.eot?") format("eot"), url("./fonts/MetaPro/MetaPro-Normal.woff2") format("woff2"), url("./fonts/MetaPro/MetaPro-Normal.woff") format("woff"), url("./fonts/MetaPro/MetaPro-Normal.ttf") format("truetype"), url("./fonts/MetaPro/MetaPro-Normal.svg#MetaPro-Normal") format("svg");
+  src: url("../fonts/MetaPro/MetaPro-Normal.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 .footer_list {
   list-style-type: none;

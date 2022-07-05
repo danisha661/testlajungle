@@ -1,2 +1,7 @@
-@include font-face('MetaPro-Normal', './fonts/MetaPro/MetaPro-Normal');
+@font-face {
+    font-family: 'MetaPro-Normal';
+    src: url('../fonts/MetaPro/MetaPro-Normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 $f-metaProNormal: 'MetaPro-Normal', sans-serif;  
