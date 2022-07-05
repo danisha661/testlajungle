@@ -65,7 +65,35 @@ section.description{
     }
 
     section.access_rapid_mobile{
-        display: none;
+        padding: 20px 0 0 0;
+        width: 100%;
+        position: relative;
+        top: -70px;
+        z-index: 9;
+        button{
+            background-color: $yellow;
+            color: $white;
+            padding: 25px;
+            // height: 51px;
+            font-size: 26px;
+            border: none;
+            line-height: 21.48px;
+            font-weight: 400;
+        }
+
+
+        background-color: $yellow;
+        width: 35%;
+        display: flex;
+        .access_rapid_box{
+            display: flex;
+            // justify-content: center;
+            justify-content: space-around;
+            div{
+                
+                padding: 20px;
+            }
+        }
     }
 
     section.description{
