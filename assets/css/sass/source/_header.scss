@@ -78,6 +78,12 @@ $size-desktop: 768px;
   }
 
   @media screen and (max-width: 768px){
+
+    .menu-item.menu-item--expanded > a:after {
+      top: 25px;
+  }
+
+  
     .navigation_menu{
         position: absolute;
         z-index: 9999;
