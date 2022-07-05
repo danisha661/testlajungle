@@ -9,6 +9,9 @@ html,h1,h2,h3,h4,h5,h6,p,span{
     font-family: $f-metaProNormal;
     scroll-behavior: smooth;
 }
+button{
+    cursor: pointer;
+}
 .d-flex{
     display: flex;    
 }
@@ -142,12 +145,17 @@ section.description{
 .backToTop{
     width: 100%;
     text-align: right;
+    margin-top: -35px;
+    position: absolute;
     button{
         margin-right: 275px;
         background-color: $lightGreen;
         color: $white;
-        padding:20px;
+        padding: 23px 20px 20px 20px;
         border: none;
+        line-height: 27px;
+        font-size: 18px;
+        font-weight: 500;
     }
 }
 
