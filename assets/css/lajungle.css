@@ -104,14 +104,42 @@
     align-self: center;
   }
 }
+.alert {
+  position: relative;
+  z-index: 9999;
+  padding: 15px;
+  background-color: #D65128;
+  color: #ffffff;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  float: right;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 30px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
 .information_box {
   background-color: #D65128;
   color: #ffffff;
   height: 45px;
+  width: 981px;
+  font-size: 16px;
   float: right;
-  font-size: 15px;
-  text-align: right;
-  padding: 5px;
 }
 
 .swiper {
