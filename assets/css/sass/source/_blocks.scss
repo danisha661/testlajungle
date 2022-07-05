@@ -215,24 +215,31 @@ section.post{
   
   .container {
     padding: 2px 16px;
+    h3{
+        font-weight: 400;
+        font-size: 20px;
+    }
+    p{
+        font-weight: 100;
+    }
   }
 
   .publication{
+    
     .post_heading{
         padding: 50px;
     }
     width: 100%;
     margin:0;
     padding: 0;
-    background-color: $orange;
-
     .publication_post{
         display: flex;
         width: 100%;
 
-        div{
-            background-color: red;
-            padding: 50px;
+        .pub1{
+            background: url("../../../images/pub1.jpg");
+            width: 500px;
+            height: 500px;
         }
     }
   }
